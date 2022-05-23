@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 25,
+    "height" : 30
+  }, {
+    "width" : 50,
+    "height" : 60
+  }, {
+    "width" : 100,
+    "height" : 120
+  }, {
+    "width" : 200,
+    "height" : 240
+  }, {
+    "width" : 400,
+    "height" : 480
+  }, {
+    "width" : 800,
+    "height" : 960
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 800,
+  "@id" : "https://mvleroi.github.io/EUROPEANA/images/Map",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 960
+}
