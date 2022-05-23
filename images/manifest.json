@@ -1,0 +1,66 @@
+{
+  "id" : "https://mvleroi.github.io/EUROPEANA/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in mvleroi/EUROPEANA project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 800,
+    "id" : "https://mvleroi.github.io/EUROPEANA/images/Map/canvas/",
+    "label" : {
+      "none" : [ "Map" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mvleroi.github.io/EUROPEANA/images/Map/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mvleroi.github.io/EUROPEANA/images/Map/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 25,
+              "height" : 30
+            }, {
+              "width" : 50,
+              "height" : 60
+            }, {
+              "width" : 100,
+              "height" : 120
+            }, {
+              "width" : 200,
+              "height" : 240
+            }, {
+              "width" : 400,
+              "height" : 480
+            }, {
+              "width" : 800,
+              "height" : 960
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 800,
+            "@id" : "https://mvleroi.github.io/EUROPEANA/images/Map",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 960
+          } ],
+          "format" : "image/jpeg",
+          "width" : 800,
+          "id" : "https://mvleroi.github.io/EUROPEANA/images/Map/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 960
+        },
+        "target" : "https://mvleroi.github.io/EUROPEANA/images/Map/canvas/"
+      } ]
+    } ],
+    "height" : 960
+  } ]
+}
